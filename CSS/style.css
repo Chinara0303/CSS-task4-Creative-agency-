@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#Header{
+    background-image: url(http://rainbowit.net/themes/imroz/wp-content/uploads/2021/10/bg-image-26.jpg);
+    background-size: cover;
+    overflow: auto;
+    padding: 30px 4rem;
+}
+
+#Header .left{
+    float: left;
+}
+
+#Header .right{
+    float: right;
+    margin-top: 2.5rem;
+}
+#Header .right a{
+    margin-left: 30px;
+    font-size: 24px;
+    color: #FFF;
+}
+
+#Header .right a:hover{
+    color: #fd4766;
+    border: none;
+    border-bottom: 3px solid #fd4766;
+    padding: 20px 0;
+    cursor: pointer;
+    transition: 1s;
+}
+ 
+.btn1{
+    border: 1px solid #000;
+    padding: 20px 50px;
+    border-radius: 30px;
+}
+
+.img{
+    height: 50%;
+    
+}
+#creative{
+    text-align: center;
+    padding: 14rem 4rem;
+}
+#creative h1 {
+    background: -webkit-linear-gradient(rgb(41, 20, 231), rgb(224, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 150px;
+    margin-bottom: 15px;
+}
+#creative p{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 5rem;
+}
+#creative a{
+    border: 1px transparent;
+    border-radius: 30px;
+    background-color: #FD4766;
+    padding: 26px 60px;
+    color: #fff;
+    font-size: 30px;
+}
+#creative a:hover{
+    border: 1px solid #fd4766;
+    background-color: transparent;
+    color: #fd4766;
+    transition: 1s;
+}
+
+
+/* Second section */
+
+#Second {
+color: #1d1d24bf;
+padding: 10rem 4rem;
+}
+
+.second-area .box{
+    width: 32%;
+    float: left;
+    background-color: #F6F6F6;
+    margin-right: 15px;
+    margin-top: 30px;
+    padding: 60px 30px ;
+}
+.box svg{
+    color: #FD4766;
+    width: 25%;
+    margin: auto;
+}
+.box h3{
+    color: #2b2b31;
+    font-size: 30px;
+    width: 85%;
+    margin: 30px auto;
+}
+.box p{
+    color:#1d1d24bf;
+    font-size: 25px;
+    width: 85%;
+    margin: auto ;
+    line-height: 1.5;
+}
